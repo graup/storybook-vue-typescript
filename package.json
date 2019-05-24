@@ -10,7 +10,7 @@
 		"vue": "^2.6.10"
 	},
 	"devDependencies": {
-		"@storybook/vue": "^5.0.11",
+		"@storybook/vue": "npm:storybook-vue-no-preset@5.0.11",
 		"@types/storybook__vue": "^5.0.1",
 		"@vue/cli-plugin-babel": "^3.7.0",
 		"@vue/cli-plugin-typescript": "^3.7.0",

@@ -1152,10 +1152,10 @@
     telejson "^2.1.1"
     util-deprecate "^1.0.2"
 
-"@storybook/vue@^5.0.11":
+"@storybook/vue@npm:storybook-vue-no-preset@5.0.11":
   version "5.0.11"
-  resolved "https://registry.yarnpkg.com/@storybook/vue/-/vue-5.0.11.tgz#bf796eeb8bfed3d3d8784cc3df87d2b7c1afa70b"
-  integrity sha512-4TzTxk7fYd9N82vuylQUZZ6LcLujobSGH0HL3ni6EB7lNXRH/VjYtOo9TmkJWV+tgsfNZH3NhV35Z+TJ5EU4ZQ==
+  resolved "https://registry.yarnpkg.com/storybook-vue-no-preset/-/storybook-vue-no-preset-5.0.11.tgz#7c8d1fed66f6b83b0584a501eac72f8f7c56badd"
+  integrity sha512-+CTGj8XHiIO1Zm3+XRUsLYiztVnJCnAIPo/8a/r7ZBiFFRz4Vd9nThK730agNG+OXdXPVorUHOdCKnwTWbiAdg==
   dependencies:
     "@storybook/core" "5.0.11"
     common-tags "^1.8.0"
