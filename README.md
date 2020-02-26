@@ -1,5 +1,7 @@
 # storybook-vue-typescript
 
+This shows how to use Storybook alongside Vue with Typescript.
+ 
 ## Project setup
 ```
 yarn
