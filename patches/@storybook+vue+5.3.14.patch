@@ -1,0 +1,14 @@
+diff --git a/node_modules/@storybook/vue/dist/server/framework-preset-vue.js b/node_modules/@storybook/vue/dist/server/framework-preset-vue.js
+index 6748387..9e9c1d0 100644
+--- a/node_modules/@storybook/vue/dist/server/framework-preset-vue.js
++++ b/node_modules/@storybook/vue/dist/server/framework-preset-vue.js
+@@ -38,7 +38,5 @@ function webpack(config) {
+ }
+ 
+ function babelDefault(config) {
+-  return _objectSpread({}, config, {
+-    presets: [...config.presets, require.resolve('babel-preset-vue')]
+-  });
++  return config;
+ }
+\ No newline at end of file
