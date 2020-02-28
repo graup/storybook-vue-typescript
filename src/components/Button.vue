@@ -1,9 +1,9 @@
 <template>
-  <button class="button" :disabled="isDisabled" @click="$emit('click')">
+  <button class="button" :disabled="isDisabled" @click="$emit('click')" :title="title">
   	<slot></slot>
   </button>
 </template>
- 
+
 <script lang="ts">
 import Vue from 'vue';
 
@@ -12,15 +12,18 @@ export default Vue.extend({
   props: {
     isDisabled: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
+  },
+  computed: {
+    title(): string {
+      return 'Foo';
+    },
   },
 });
 </script>
 
-
 <style lang="scss">
-
 .button {
   display: flex;
   
@@ -28,7 +31,7 @@ export default Vue.extend({
   padding: .75em 3em;
   background: #D8D8D8;
   border-radius: 4px;
-  border: none;
+  border: 0;
   text-decoration: none;
   text-align: center;
 
@@ -36,5 +39,4 @@ export default Vue.extend({
     color: #fff;
   }
 }
-
 </style>
